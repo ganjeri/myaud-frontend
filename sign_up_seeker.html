@@ -1,0 +1,147 @@
+<!DOCTYPE html>
+<html lang="en">
+ <head>
+    <title>Welcome to My audition | Sign up</title>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" type="text/css" href="css/bootstrap.css">
+ </head>
+    <body>
+        <div class="jumbotron text-center">
+       <div class="container"></div>
+        <h1>My Audition</h1>
+     <div class="container">    
+            
+    <div id="signupbox" style=" margin-top:50px" class="mainbox col-md-6 col-md-offset-3 col-sm-8 col-sm-offset-2">
+        <div class="panel panel-info">
+            <div class="panel-heading">
+                <div class="panel-title">Sign Up</div>
+                <div style="float:right; font-size: 85%; position: relative; top:-10px"><a id="signinlink" href="index.html">Sign In</a></div>
+            </div>  
+            <div class="panel-body" >
+                <form method="post" action=".">
+                    <input type='hidden' name='csrfmiddlewaretoken' value='XFe2rTYl9WOpV8U6X5CfbIuOZOELJ97S' />
+                            
+
+                    <form  class="form-horizontal" method="post" >
+                        <input type='hidden' name='csrfmiddlewaretoken' value='XFe2rTYl9WOpV8U6X5CfbIuOZOELJ97S' />
+                       
+                       
+                        <div id="div_id_username" class="form-group required">
+                            <label for="id_username" class="control-label col-md-4  requiredField"> Username<span class="asteriskField">*</span> </label>
+                            <div class="controls col-md-8 ">
+                                <input class="input-md  textinput textInput form-control" id="id_username" maxlength="30" name="username" placeholder="Choose your username" style="margin-bottom: 10px" type="text" />
+                            </div>
+                        </div>
+                        <div id="div_id_email" class="form-group required">
+                            <label for="id_email" class="control-label col-md-4  requiredField"> E-mail<span class="asteriskField">*</span> </label>
+                            <div class="controls col-md-8 ">
+                                <input class="input-md emailinput form-control" id="id_email" name="email" placeholder="Your current email address" style="margin-bottom: 10px" type="email" />
+                            </div>     
+                        </div>
+                        <div id="div_id_password1" class="form-group required">
+                            <label for="id_password1" class="control-label col-md-4  requiredField">Password<span class="asteriskField">*</span> </label>
+                            <div class="controls col-md-8 "> 
+                                <input class="input-md textinput textInput form-control" id="id_password1" name="password1" placeholder="Create a password" style="margin-bottom: 10px" type="password" />
+                            </div>
+                        </div>
+                        <div id="div_id_password2" class="form-group required">
+                             <label for="id_password2" class="control-label col-md-4  requiredField"> Re:password<span class="asteriskField">*</span> </label>
+                             <div class="controls col-md-8 ">
+                                <input class="input-md textinput textInput form-control" id="id_password2" name="password2" placeholder="Confirm your password" style="margin-bottom: 10px" type="password" />
+                            </div>
+                        </div>
+                        <div id="div_id_name" class="form-group required"> 
+                            <label for="id_name" class="control-label col-md-4  requiredField"> Full name<span class="asteriskField">*</span> </label> 
+                            <div class="controls col-md-8 "> 
+                                <input class="input-md textinput textInput form-control" id="id_name" name="name" placeholder="Your Frist name and Last name" style="margin-bottom: 10px" type="text" />
+                            </div>
+                        </div>
+                        <div id="div_id_business_name" class="form-group required"> 
+                            <label for="id_business_name" class="control-label col-md-4  requiredField"> Buisness name<span class="asteriskField">*</span> </label> 
+                            <div class="controls col-md-8 "> 
+                                <input class="input-md textinput textInput form-control" id="id_business_name" name="businessname" placeholder="Your business name" style="margin-bottom: 10px" type="text" />
+                            </div>
+                        </div>
+                        <div id="div_id_business_address" class="form-group required"> 
+                            <label for="id_business_addresss" class="control-label col-md-4  requiredField">Business Address<span class="asteriskField">*</span> </label> 
+                            <div class="controls col-md-8 "> 
+                                <input class="input-md textinput textInput form-control" id="id_business_address" name="address" placeholder="Your business address" style="margin-bottom: 10px" type="text" />
+                            </div>
+                        </div>
+                        <div id="div_id_gender" class="form-group required">
+                            <label for="id_gender"  class="control-label col-md-4  requiredField"> Gender<span class="asteriskField">*</span> </label>
+                            <div class="controls col-md-8 "  style="margin-bottom: 10px">
+                                 <label class="radio-inline"> <input type="radio" name="gender" id="id_gender_1" value="M"  style="margin-bottom: 10px">Male</label>
+                                 <label class="radio-inline"> <input type="radio" name="gender" id="id_gender_2" value="F"  style="margin-bottom: 10px">Female </label>
+                            </div>
+                        </div>
+                        <div id="div_id_catagory" class="form-group required">
+                            <label for="id_catagory" class="control-label col-md-4  requiredField"> Catagory<span class="asteriskField">*</span> </label>
+                            <div class="controls col-md-8 "> 
+                                 <input class="input-md textinput textInput form-control" id="id_catagory" name="catagory" placeholder="skills catagory" style="margin-bottom: 10px" type="text" />
+                            </div>
+                        </div> 
+                        <div id="div_id_number" class="form-group required">
+                             <label for="id_number" class="control-label col-md-4  requiredField"> Contact number<span class="asteriskField">*</span> </label>
+                             <div class="controls col-md-8 ">
+                                 <input class="input-md textinput textInput form-control" id="id_number" name="number" placeholder="provide your number" style="margin-bottom: 10px" type="text" />
+                            </div> 
+                        </div> 
+                        <div id="div_id_location" class="form-group required">
+                            <label for="id_location" class="control-label col-md-4  requiredField"> Country<span class="asteriskField">*</span> </label>
+                            <div class="controls col-md-8 ">
+                                <input class="input-md textinput textInput form-control" id="id_country" name="country" placeholder="Your country" style="margin-bottom: 10px" type="text" />
+                            </div> 
+                        </div>
+                        
+                        
+                        
+                        <div id="div_id_location" class="form-group required">
+                            <label for="id_location" class="control-label col-md-4  requiredField"> City<span class="asteriskField">*</span> </label>
+                            <div class="controls col-md-8 ">
+                                <input class="input-md textinput textInput form-control" id="id_location" name="city" placeholder="Your City" style="margin-bottom: 10px" type="text"/>
+                            </div>
+                        </div>
+                                <div id="div_id_oayment_option" class="form-group required">
+                            <label for="id_payment_option"  class="control-label col-md-4  requiredField"> Payment Option <span class="asteriskField">*</span> </label>
+                            <div class="controls col-md-8 "  style="margin-bottom: 10px">
+                                 <label class="radio-inline"> <input type="radio" name="payment" id="id_debit_card" value="debit"  style="margin-bottom: 10px">Debit card</label>
+                                 <label class="radio-inline"> <input type="radio" name="payment" id="id_credit_card" value="credit"  style="margin-bottom: 10px">
+                                Credit Card</label>
+                                <label class="radio-inline"> <input type="radio" name="payment" sid="id_banking" value="banking"  style="margin-bottom: 10px">
+                                Net Banking</label>
+                            </div>
+                        </div>     
+                     
+                        
+                        <div class="form-group">
+                            <div class="controls col-md-offset-4 col-md-8 ">
+                                <div id="div_id_terms" class="checkbox required">
+                                    <label for="id_terms" class=" requiredField">
+                                         <input class="input-ms checkboxinput" id="id_terms" name="terms" style="margin-bottom: 10px" type="checkbox" />
+                                        <a href="terms.html">Agree with the terms and conditions</a>
+                                    </label>
+                                </div> 
+                                    
+                            </div>
+                        </div> 
+                        <div class="form-group"> 
+                            <div class="aab controls col-md-4 "></div>
+                            <div class="controls col-md-8 ">
+                                <input type="submit" name="Signup" value="Signup" class="btn btn-primary btn btn-info" id="submit-id-signup" />
+                                
+                            </div>
+                        </div> 
+                            
+                    </form>
+
+                </form>
+            </div>
+        </div>
+    </div> 
+    
+            </div>
+        </div>                    
+    </body>
+</html>
